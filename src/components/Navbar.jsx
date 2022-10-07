@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div style={{
-      display: "flex", backgroundColor: "#ffffff",
+    <div className='navbar' style={{
+      display: "flex",
       height: "50px",
       padding: "10px",
       alignItems: "center",
