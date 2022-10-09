@@ -2,6 +2,8 @@ import React from 'react'
 import addUser from '../imgs/add-user.png'
 import camera from '../imgs/cam.png'
 import more from '../imgs/more.png'
+import Input from './Input'
+import Messages from './Messages'
 
 export default function Chat() {
   return (
@@ -9,11 +11,12 @@ export default function Chat() {
       <div className="chatInfo" style={{ height: "50px"}}>
         <span>Jane</span>
         <div className="chatIcons">
-          
           <img src={addUser} alt="" />
           <img src={more} alt="" />
         </div>
       </div>
+      <Messages/>
+      <Input/>
     </div>
   )
 }
